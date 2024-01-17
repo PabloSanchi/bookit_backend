@@ -9,6 +9,9 @@ class Filter {
     @Expose({ name: 'end_date' })
     endDate: string;
 
+    @Expose({ name: 'number_of_people' })
+    numOfPeople: number;
+
     price: number;
     rooms: number;
 }
